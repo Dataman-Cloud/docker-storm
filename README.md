@@ -1,28 +1,10 @@
 # storm-docker
 
-Dockerfiles for building a storm cluster. Inspired by [https://github.com/ptgoetz/storm-vagrant](https://github.com/ptgoetz/storm-vagrant) and [https://github.com/wurstmeister/storm-docker](https://github.com/wurstmeister/storm-docker).
+Dockerfiles for building a storm cluster. Inspired by  [https://github.com/wurstmeister/storm-docker](https://github.com/wurstmeister/storm-docker).
 
-## Pre-Requisites
 
-- install docker-compose [http://docs.docker.com/compose/install/](http://docs.docker.com/compose/install/)
 
-## Usage
 
-Start a cluster:
-
-- ```docker-compose up```
-
-Destroy a cluster:
-
-- ```docker-compose stop```
-
-Add more supervisors:
-
-- ```docker-compose scale supervisor=3```
-
-## Building
-
-- ```rebuild.sh```
 
 ## Running a supervisor
 
